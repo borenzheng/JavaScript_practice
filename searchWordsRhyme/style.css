@@ -1,0 +1,118 @@
+header {
+    text-align: center;
+    background-color: #7ad0d6;
+    padding: 10px;
+  }
+  
+  main {
+    background-color: #7ad0d6;
+    height: 900px;
+    text-align: center;
+  }
+  
+  h1 {
+    height: 60px;
+    font-family: Work Sans, sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+    letter-spacing: 0.2px;
+    text-align: center;
+    color: #384283;
+    padding-top: 10px;
+    margin: 0;
+  }
+  
+  h2 {
+    height: 28px;
+    font-family:  Work Sans, sans-serif;
+    font-size: 22px;
+    font-weight: 200;
+    letter-spacing: 0.5px;
+    text-align: center;
+    color: #384283;
+    margin: 0;
+  }
+
+  li {
+    text-align: center;
+    margin: 0 25% 0 25%;
+  }
+  
+  .logo {
+    width: 150px;
+    height: 40px;
+    margin-top: 40px;
+    object-fit: contain;
+  }
+  
+  .container {
+    width: 400px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  #input {
+    width: 219px;
+    height: 37px;
+    border-radius: 3.2px;
+    border: solid 0.8px #1f233e;
+    background-color: inherit;
+    display: block;
+    margin: auto;
+    margin-top: 10px;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #384283;
+  }
+  
+  #submit {
+    width: 105px;
+    height: 38px;
+    border-radius: 13.2px;
+    border: solid 0.8px #384283;
+    border-color: inherit;
+    background-color:  #384283;
+    margin-top: 30px;
+    font-family: Work Sans, sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #7ad0d6;
+    margin-right: -3px;
+  }
+  
+  #responseField {
+    min-width: 190px;
+    min-height: 180px;
+    border-radius: 13.2px;
+    border: solid 0.8px #384283;;
+    background-color: #384283;
+    margin: auto;
+    margin-top: 25px;
+    font-family: Arial, sans-serif;
+    font-weight: 300;
+    font-size: 16px;
+    letter-spacing: 0.3px;
+    text-align: center;
+    color: #ffffffe5;
+    overflow-wrap: break-word;
+    padding: 20px;
+  }
+  
+  #submit:hover {
+    color: #ffffff;
+    cursor: pointer;
+  }
+  
+  #submit:active {
+    background-color: #ffffffe5;
+    border-color: #ffffffe5;
+    color: #384283;
+    cursor: pointer;
+  }
+  
+  
