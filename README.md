@@ -1,2 +1,2 @@
 # WebDesign
-Personal JavaScript practice projects
+Personal JavaScript,HTML,CSS practice projects
