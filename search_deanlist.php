@@ -1,6 +1,7 @@
-//creat a search form for URI deanlist, implement keyword search
-
 <?php
+
+// creat a search form for URI deanlist, implement keyword search
+
 if(isset($_POST['search']))
 {
     $valueToSearch = $_POST['valueToSearch'];
