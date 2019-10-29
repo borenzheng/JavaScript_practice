@@ -1,3 +1,8 @@
+/* This file is provided by Codecademy learning platform 
+and modified by Boren Zheng */
+body{
+  background-color: #e9f5fcf1;
+}
 .logo {
     padding: 10px;
     margin-left: 48%
@@ -71,8 +76,7 @@
   }
   
   .weather {
-    width: 200px;
-    height: 260px;
+    width: 275px;
     padding: 20px;
     border-radius: 6px;
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.5);
@@ -111,7 +115,6 @@
     font-weight: 600;
     letter-spacing: 0.7px;
     text-align: left;
-    padding: 0 0 30px 0;
     color: #27b7c1;
   }
   
@@ -119,6 +122,7 @@
     height: 50px;
     width: 300px;
     align-items: center;
+    padding: 30px 0 0 0;
   }
   
   .sectiontitle h2 {
@@ -134,12 +138,17 @@
     display: flex;
     justify-content: space-around;
     min-height: 250px;
+    background-color: #1ec1f394
   }
   
   #weather {
     display: flex;
     justify-content: space-around;
-    min-height: 350px;
+    min-height: 250px;
+
+  }
+  #weather1 {
+    background-color: #1ec1f394
   }
   
   #city {
