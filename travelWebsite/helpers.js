@@ -1,3 +1,4 @@
+// The code is provided by Codecademy learning platform
 const createVenueHTML = (name, location, iconSource) => {
     return `<h2>${name}</h2>
     <img class="venueimage" src="${iconSource}"/>
