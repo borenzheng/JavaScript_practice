@@ -3,7 +3,7 @@ const clientId = '1WVDSNKKW15F1ZXJ54NLX43K4LIRJEMNW01EDJ5KLRC3XFCC';
 const clientSecret = 'ON0REKKBMV3MZRQW4BFBVFPBDDUVL4HZU4TPOCBESENBF1KU';
 const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 
-// // APIXU Info
+// // APIXU Info, shutdown
 // const apiKey = '75d278f0ca164ea7b56160902192804';
 // const forecastUrl = 'https://api.apixu.com/v1/forecast.json?key=';
 
