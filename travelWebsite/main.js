@@ -1,4 +1,6 @@
 // This is a practice project from Codecademy learning platform
+// An interactive travel website that can support location search, 
+// plus weather and venue recommendations based on the user’s landing location
 
 // Foursquare API Info
 const clientId = '1WVDSNKKW15F1ZXJ54NLX43K4LIRJEMNW01EDJ5KLRC3XFCC';
