@@ -1,6 +1,6 @@
 <?php
 
-// creat a search form for URI deanlist, implement keyword search
+// A search form of URI dean's list for internal use, implement keyword search
 
 if(isset($_POST['search']))
 {
@@ -23,6 +23,8 @@ function filterTable($query)
 }
 
 ?>
+
+<!-- Web page contents -->
 <!DOCTYPE html>
 <html>
     <head>
