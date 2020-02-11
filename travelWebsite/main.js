@@ -1,9 +1,11 @@
+// This is a practice project from Codecademy learning platform
+
 // Foursquare API Info
 const clientId = '1WVDSNKKW15F1ZXJ54NLX43K4LIRJEMNW01EDJ5KLRC3XFCC';
 const clientSecret = 'ON0REKKBMV3MZRQW4BFBVFPBDDUVL4HZU4TPOCBESENBF1KU';
 const url = 'https://api.foursquare.com/v2/venues/explore?near=';
 
-// // APIXU Info, shutdown
+// APIXU Info, this API was shut down
 // const apiKey = '75d278f0ca164ea7b56160902192804';
 // const forecastUrl = 'https://api.apixu.com/v1/forecast.json?key=';
 
@@ -20,7 +22,7 @@ const $venueDivs = [$("#venue1"), $("#venue2"), $("#venue3"), $("#venue4")];
 const $weatherDiv = $("#weather1");
 const weekDays = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
 
-// Add AJAX functions here:
+// AJAX functions
 const getVenues = async () => {
 const city = $input.val();
 const urlToFetch = `${url}${city}&limit=10&client_id=${clientId}&client_secret=${clientSecret}&v=20190428`;
